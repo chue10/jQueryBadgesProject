@@ -13,10 +13,10 @@ $(function() {
   function addCourses(courses) {
     var $badges = $('#badges');
 
-    courses.forEach(function (course) {
+    courses.forEach(function(course) {
 
       var $course = $('<div />', {
-        'class': course,
+        'class': 'course',
 
       }).appendTo($badges);
 
